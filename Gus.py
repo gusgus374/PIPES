@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 import streamlit.components.v1 as components
+from streamlit_extras.app_logo import add_logo
 
 st.set_page_config(
     page_title="FootyLab",
@@ -14,12 +15,14 @@ st.set_page_config(
         'About': "# This is a version of FootyLab created for the 2024 UTK PIPES Investigators Camp. Contact gus@datarook.com to learn more"
     }
 )
+#add_logo("./resources/datarooklogo_round.png",height=20)
 with st.echo(code_location="below"):
     import streamlit as st
     import pandas as pd
     import altair as alt
     import streamlit.components.v1 as components
     st.title("Welcome to our 2024 UTK PIPES Soccer Data Science App!")
+    st.image("./resources/2024UTK_PiPES.png",)
 
     st.header("Soccer... and Data... *and* Science?")
     st.subheader("One of the biggest soccer clubs in the world, Liverpool FC, hired particle physicists to help improve their soccer team")
