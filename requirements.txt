@@ -1,8 +1,0 @@
-matplotlib
-numpy
-pandas
-mplsoccer
-statsmodels
-itscalledsoccer
-scipy
-cachecontrol
