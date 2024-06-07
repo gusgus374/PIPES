@@ -5,11 +5,7 @@ mplsoccer
 statsmodels
 itscalledsoccer
 scipy
-<<<<<<< HEAD
 streamlit-ace
 streamlit-metrics
 altair
 plotly
-=======
-cachecontrol
->>>>>>> d0542aeba7a674b3db58b90b9f6aa42a8acc61aa
