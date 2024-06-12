@@ -2,11 +2,11 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 import streamlit.components.v1 as components
-from streamlit_extras.app_logo import add_logo
+#from streamlit_extras.app_logo import add_logo
 
 st.set_page_config(
-    page_title="FootyLab",
-    page_icon="./resources/boots1.png",
+    page_title="footyLab • Play to Learn | DataRook, Inc.",
+    page_icon="./resources/DR_favicon.png",
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
@@ -15,7 +15,8 @@ st.set_page_config(
         'About': "# This is a version of FootyLab created for the 2024 UTK PIPES Investigators Camp. Contact gus@datarook.com to learn more"
     }
 )
-#add_logo("./resources/datarooklogo_round.png",height=20)
+#add_logo("./resources/DR_logo_48_NB.png",height=160)
+st.logo("./resources/footyLab_v2_96_NB.png",link="https://datarook.com/")
 with st.echo(code_location="below"):
     import streamlit as st
     import pandas as pd
