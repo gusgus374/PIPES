@@ -15,7 +15,6 @@ st.set_page_config(
         'About': "# This is a version of FootyLab created for the 2024 UTK PIPES Investigators Camp. Contact gus@datarook.com to learn more"
     }
 )
-#add_logo("./resources/DR_logo_48_NB.png",height=160)
 st.logo("./resources/footyLab_v2_96_NB.png",link="https://datarook.com/")
 with st.echo(code_location="below"):
     import streamlit as st
